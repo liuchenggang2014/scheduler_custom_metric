@@ -1,10 +1,10 @@
 # scheduler_custom_metric
 
 
-'''
-flowchart LR
-A[Cloud Scheduler] --> B(Cloud Function)
-B --> C(Query BQ and Write Custom Metrics)
+'''mermaid
+flowchart TD
+A[Cloud Scheduler] --> B[Cloud Function]
+B --> C[Query BQ and Write Custom Metrics]
 '''
 
 
