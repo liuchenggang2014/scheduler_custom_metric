@@ -1,11 +1,11 @@
 # scheduler_custom_metric
 
 
-'''mermaid
+```mermaid
 flowchart TD
 A[Cloud Scheduler] --> B[Cloud Function]
 B --> C[Query BQ and Write Custom Metrics]
-'''
+```
 
 
 ## Steps
